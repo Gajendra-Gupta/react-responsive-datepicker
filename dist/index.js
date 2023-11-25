@@ -108,7 +108,7 @@ var DatePicker = function DatePicker(_ref) {
   };
 
   var handleClear = function handleClear() {
-    setSelectedDate(null);
+    // setSelectedDate(null);
     onChange && onChange(null);
   };
 
